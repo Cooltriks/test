@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>design</title>
+	<meta name="title" content="design">
+	<meta name="description" content="test">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css" />
+
+	<style>
+		body {
+			background: #eaf3fe !important;
+			font-family: Roboto, sans-serif;
+			font-size: 1.1rem
+		}
+		
+
+		@media(max-width:768px) {
+			body {
+				margin: 10px
+			}
+
+			section {
+				padding: 50px 0 50px
+			}
+		}
+	</style>
+<body>
+	<div id="app">
+		<nav id="iv9a" class="navbar navbar-expand-md navbar-light bg-white shadow-sm sticky-top">
+			<div class="container-fluid mx-md-4"><a href="https://www.vmakeu.com" class="navbar-brand"><img
+						src="/images/logo.png" height="40" /></a><button type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span
+						class="navbar-toggler-icon"></span></button>
+				<div id="navbarSupportedContent" class="collapse navbar-collapse"><!-- Left Side Of Navbar -->
+					<ul class="navbar-nav me-auto">
+					</ul>
+					<ul class="navbar-nav justify-center">
+						<li class="nav-item px-2"><a href="/industries"
+								class="nav-link fs-5 text-dark fw-bold">Industries</a></li>
+						<li class="nav-item px-2"><a href="/about" class="nav-link fs-5 text-dark fw-bold">About</a>
+						</li>
+						<li class="nav-item dropdown px-2"><a id="navbarInitiativeDropdown" href="#" role="button"
+								data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre=""
+								class="nav-link fs-5 text-dark fw-bold dropdown-toggle">
+								Services
+							</a>
+							<div aria-labelledby="navbarInitiativeDropdown"
+								class="dropdown-menu fs-6 dropdown-menu-end"><a href="/services"
+									class="dropdown-item fw-bold">
+									Services
+								</a>
+								<div class="dropdown-divider">
+								</div><a href="/services/sheet-metal" class="dropdown-item fw-bold">
+									Sheet Metal
+								</a>
+								<div class="dropdown-divider">
+								</div><a href="/services/sheet-metal-fabrication" class="dropdown-item fs-6 fw-bold">
+									Sheet Metal Fabrication
+								</a>
+								<div class="dropdown-divider">
+								</div><a href="/services/machining" class="dropdown-item fs-6 fw-bold">
+									Machining
+								</a>
+								<div class="dropdown-divider">
+								</div><a href="/services/industrial-gases" class="dropdown-item fs-6 fw-bold">
+									Industrial Gases
+								</a>
+							</div>
+						</li><!--  <li class="nav-item px-2">
+<a class="nav-link fs-5 text-dark fw-bold" href="/team">Team</a>
+</li> -->
+						<li class="nav-item px-2"><a href="/contact" class="nav-link fs-5 text-dark fw-bold">Contact</a>
+						</li>
+					</ul><!-- Right Side Of Navbar -->
+					<ul class="navbar-nav ms-auto"><!-- Authentication Links -->
+						<li class="nav-item"><a href="/signup-login" class="btn btn-primary">Login / Register</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main class="min-vh-100">
+			<div class="px-4 py-5 my-5 text-center">
+				<img class="d-block mx-auto mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+				<h1 class="display-5 fw-bold">Centered hero</h1>
+				<div class="col-lg-6 mx-auto">
+				  <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+				  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+					<button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+					<button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+				  </div>
+				</div>
+			  </div>
+			
+			  <div class="b-example-divider"></div>
+			
+			  <div class="px-4 pt-5 my-5 text-center border-bottom">
+				<h1 class="display-4 fw-bold">Centered screenshot</h1>
+				<div class="col-lg-6 mx-auto">
+				  <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+				  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+					<button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+					<button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+				  </div>
+				</div>
+				<div class="overflow-hidden" style="max-height: 30vh;">
+				  <div class="container px-5">
+					<img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+				  </div>
+				</div>
+			  </div>
+			
+			  <div class="b-example-divider"></div>
+			
+			  <div class="container col-xxl-8 px-4 py-5">
+				<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+				  <div class="col-10 col-sm-8 col-lg-6">
+					<img src="https://www.petseva.com/images/banners/home.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+				  </div>
+				  <div class="col-lg-6">
+					<h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+					<p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+					  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+					  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			
+			  <div class="b-example-divider"></div>
+			
+			  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+				<div class="row align-items-center g-lg-5 py-5">
+				  <div class="col-lg-7 text-center text-lg-start">
+					<h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
+					<p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+				  </div>
+				  <div class="col-md-10 mx-auto col-lg-5">
+					<form class="p-4 p-md-5 border rounded-3 bg-light">
+					  <div class="form-floating mb-3">
+						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+						<label for="floatingInput">Email address</label>
+					  </div>
+					  <div class="form-floating mb-3">
+						<input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+						<label for="floatingPassword">Password</label>
+					  </div>
+					  <div class="checkbox mb-3">
+						<label>
+						  <input type="checkbox" value="remember-me"> Remember me
+						</label>
+					  </div>
+					  <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+					  <hr class="my-4">
+					  <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+					</form>
+				  </div>
+				</div>
+			  </div>
+			
+			  <div class="b-example-divider"></div>
+			
+			  <div class="container my-5">
+				<div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+				  <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+					<h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
+					<p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+					  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+					  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+					</div>
+				  </div>
+				  <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+					  <img class="rounded-lg-3" src="https://www.petseva.com/images/banners/home.png" alt="" width="720">
+				  </div>
+				</div>
+			  </div>
+			
+			  <div class="b-example-divider"></div>
+			
+			  <div class="bg-dark text-secondary px-4 py-5 text-center">
+				<div class="py-5">
+				  <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+				  <div class="col-lg-6 mx-auto">
+					<p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+					<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+					  <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
+					  <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			
+			<section>
+				
+				<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white">
+					<div class="col-md-5 p-lg-5 mx-auto my-5">
+						<h1 class="display-4 fw-normal">Punny headline</h1>
+						<p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+						<a class="btn btn-outline-secondary" href="#">Coming soon</a>
+					</div>
+					<div class="product-device shadow-sm d-none d-md-block"></div>
+					<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+				</div>
+				<div class="p-4 p-md-5 mb-4 rounded bg-white">
+					<div class="row">
+						<div class="col-md-6 px-0">
+							<h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+							<p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+							<p class="lead mb-0"><a href="#" class="fw-bold">Continue reading...</a></p>
+						  </div>
+						  <div class="col-md-6">
+							  <img src="https://www.petseva.com/images/banners/home.png" alt="" width="100%" />
+						  </div>
+					</div>
+				</div>
+				<div class="banner">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5">
+								<h1>Tomato</h1>
+								<p>You don't need to read this. Now that you hav decided to read it anyways, its just some random dummy text to fill up the space for Bootstrap banner or hero section.</p>
+								<button class="btn btn-success">Learn More</button>
+							</div>
+							<div class="col-sm-7">
+								<img class="img-fluid" src="https://www.petseva.com/images/banners/home.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="p-5 bg-image" style="background-image: url('http://vlasertech.gullytest.com/images/homePage/banner1.jpg');">
+					
+					<div class="d-flex h-100">
+						<div class="text-sm-white">
+						<h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
+						<h5 class="mb-4">
+							Best & free guide of responsive web design
+						</h5>
+						<a class="btn btn-outline-primary btn-lg m-2" href=""
+							target="_blank" role="button">XYZ</a>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			<section id="blog" class="m-md-5">
+				<h3 class="display-6 p-4 text-uppercase">Recent Posts</h3>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 mb-2">
+						<div class="post bg-white shadow-sm rounded"><img src="https://picsum.photos/305" alt=""
+								class="card-img-top p-3" />
+							<div class="post-content p-4">
+								<a href="#"
+									class="text-decoration-none text-dark text-uppercase">
+									<h3>CNC Machining
+									</h3>
+								</a>
+								<p class="post-content mt-3">
+									In VLTPL, we offer complete machining solutions toindustries requiring precision machined componentsand assemblies with cutting edge quality finishes
+								</p>
+								<button class="btn btn-outline-primary">Continue Reading <span class="ms-2 fa fa-arrow-right"></span></button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-2">
+						<div class="post bg-white shadow-sm rounded"><img src="https://picsum.photos/310" alt=""
+								class="card-img-top p-3" />
+							<div class="post-content p-4">
+								<a href="#"
+									class="text-decoration-none text-dark text-uppercase">
+									<h3>CNC Machining
+									</h3>
+								</a>
+								<p class="post-content mt-3">
+									In VLTPL, we offer complete machining solutions toindustries requiring precision machined componentsand assemblies with cutting edge quality finishes
+								</p>
+								<button class="btn btn-outline-primary">Continue Reading <span class="ms-2 fa fa-arrow-right"></span></button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-2">
+						<div class="post bg-white shadow-sm rounded"><img src="https://picsum.photos/320" alt=""
+								class="card-img-top p-3" />
+							<div class="post-content p-4">
+								<a href="#"
+									class="text-decoration-none text-dark text-uppercase">
+									<h3>CNC Machining
+									</h3>
+								</a>
+								<p class="post-content mt-3">
+									In VLTPL, we offer complete machining solutions toindustries requiring precision machined componentsand assemblies with cutting edge quality finishes
+								</p>
+								<button class="btn btn-outline-primary">Continue Reading <span class="ms-2 fa fa-arrow-right"></span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section  class="row mx-md-5">
+				<div class="col-12"><h1 class="text-center">Services</h1></div>
+				
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-12 ">
+								<img src="https://picsum.photos/305" class="col-md-5 float-md-end" width="100%">
+								<div>
+									<h4>Peter J. Lamy</h4>
+									<p class="my-2"><small>Software Developer</small></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+									<button class="btn btn-outline-primary">Continue Reading <span class="ms-2 fa fa-arrow-right"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-12 ">
+								<img src="https://picsum.photos/307" class="col-md-5 float-md-end" width="100%">
+								<div>
+									<h4>Peter J. Lamy</h4>
+									<p class="my-2"><small>Software Developer</small></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+									<button class="btn btn-outline-primary">Continue Reading <span class="ms-2 fa fa-arrow-right"></span></button>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-12 ">
+								<img src="https://picsum.photos/302" class="col-md-5 float-md-end" width="100%">
+								<div>
+									<h4>Peter J. Lamy</h4>
+									<p class="my-2"><small>Software Developer</small></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+									<button class="btn btn-outline-primary">Continue Reading <span class="ms-2 fa fa-arrow-right"></span></button>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-12 ">
+								<img src="https://picsum.photos/303" class="col-md-5 float-md-end" width="100%">
+								<div>
+									<h4>Peter J. Lamy</h4>
+									<p class="my-2"><small>Software Developer</small></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+									<button class="btn btn-outline-primary">Continue Reading <span class="ms-2 fa fa-arrow-right"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-12 ">
+								<img src="https://picsum.photos/320" class="col-md-5 float-md-end" width="100%">
+								<div>
+									<h4>Peter J. Lamy</h4>
+									<p class="my-2"><small>Software Developer</small></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+									<button class="btn btn-outline-primary">Continue Reading <span class="ms-2 fa fa-arrow-right"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+			<section  class="row mx-md-5">
+				<div class="col-12"><h1 class="text-center">Blog</h1></div>
+				<div class="col-12">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="clearfix">
+							<img src="https://picsum.photos/305" class="col-md-3 float-md-end p-3" width="100%">
+							<p>
+								A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+							</p>
+							<img src="https://res.cloudinary.com/dpnea22ek/image/upload/v1627660134/user2.png" class="col-md-3 float-md-start p-3" width="100%">
+							<p>
+							  	As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+							</p>
+							<p>
+							  	And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+							</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-12">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="clearfix">
+							<img src="https://picsum.photos/307" class="col-md-3 float-md-start p-3" width="100%">
+							<p>
+							  	A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+							</p>
+							<img src="https://res.cloudinary.com/dpnea22ek/image/upload/v1627660134/user3.png" class="col-md-3 float-md-end p-3" width="100%">
+							<p>
+							  	As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+							</p>
+							<p>
+							  	And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section  class="row mx-md-5">
+				<div class="col-12"><h1 class="text-center">OUR AMAZING TEAM</h1></div>
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="https://res.cloudinary.com/dpnea22ek/image/upload/v1627660134/user1.png" alt="" width="100%" />
+							</div>
+							<div class="col-md-8">
+								<h4>Peter J. Lamy</h4>
+								<p class="my-2"><small>12 Years Expereince</small></p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="https://res.cloudinary.com/dpnea22ek/image/upload/v1627660134/user2.png" alt="" width="100%" />
+							</div>
+							<div class="col-md-8">
+								<h4>Peter J. Lamy</h4>
+								<p class="my-2"><small>Software Developer</small></p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="https://res.cloudinary.com/dpnea22ek/image/upload/v1627660134/user3.png" alt="" width="100%" />
+							</div>
+							<div class="col-md-8">
+								<h4>Peter J. Lamy</h4>
+								<p class="my-2"><small>Software Developer</small></p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box p-3 shadow bg-white rounded my-3">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="https://res.cloudinary.com/dpnea22ek/image/upload/v1627660134/user2.png" alt="" width="100%" />
+							</div>
+							<div class="col-md-8">
+								<h4>Peter J. Lamy</h4>
+								<p class="my-2"><small>Software Developer</small></p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+		</main>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
+
+	<!--- generated by Gramateria -->
+</body>
+
+</html>
